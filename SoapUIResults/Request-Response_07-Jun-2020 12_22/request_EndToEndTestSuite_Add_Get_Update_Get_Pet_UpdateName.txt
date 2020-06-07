@@ -1,0 +1,18 @@
+{
+  "id": ${Add Pet#Response#$['id']},
+  "category": {
+    "id": 0,
+    "name": "string"
+  },
+  "name": "doggie465",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 0,
+      "name": "string"
+    }
+  ],
+  "status": "available"
+}

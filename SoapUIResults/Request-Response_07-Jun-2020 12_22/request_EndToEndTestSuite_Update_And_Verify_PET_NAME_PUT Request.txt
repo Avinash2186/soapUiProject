@@ -1,0 +1,18 @@
+{
+  "id":${#[EndToEndTestSuite#Add_Pet#POST Request]#Response#$['id']},
+  "category": {
+    "id": 0,
+    "name": "string"
+  },
+  "name": "doggieUpdated12",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 0,
+      "name": "string"
+    }
+  ],
+  "status": "pending"
+}

@@ -1,0 +1,21 @@
+"Test Suite","Test Case","Test Step","Step Type","Step Status","Result message","Execution Date"
+"EndToEndTestSuite","Add_Get_Update_Get_Pet","Add Pet","restrequest","PASS","","07-Jun-2020 12_22",
+"EndToEndTestSuite","Add_Get_Update_Get_Pet","GetPetById","restrequest","PASS","","07-Jun-2020 12_22",
+"EndToEndTestSuite","Add_Get_Update_Get_Pet","UpdateName","restrequest","PASS","","07-Jun-2020 12_22",
+"EndToEndTestSuite","Add_Get_Update_Get_Pet","Copy of GetPetById","restrequest","PASS","","07-Jun-2020 12_22",
+"EndToEndTestSuite","Add_Pet","POST Request","restrequest","PASS","","07-Jun-2020 12_22",
+"EndToEndTestSuite","Update_And_Verify_PET_NAME","PUT Request","restrequest","PASS","","07-Jun-2020 12_22",
+"EndToEndTestSuite","Update_And_Verify_PET_NAME","VerifyUpdatedPetName_GETPetByID","restrequest","FAIL","Message:[Match content of [name]] Comparison failed. Path: [$['name']]; Expected value: ["doggieUpdated1"]; Actual value: [doggieUpdated12].
+","07-Jun-2020 12_22",
+"EndToEndTestSuite","/pet/findByStatus-Request 1 TestCase","GET Request","restrequest","FAIL","Message:[Match content of [name]] Comparison failed. Path: [$[3]['name']]; Expected value: ["doggieUpdated"]; Actual value: [getcat].
+","07-Jun-2020 12_22",
+"GetRequestTestSuite","GetAllPets_ByStatus","GetRequestToGetSoldPets","restrequest","PASS","","07-Jun-2020 12_22",
+"GetRequestTestSuite","GetAllPets_ByStatus","GetRequestToGetAvailablePets","restrequest","PASS","","07-Jun-2020 12_22",
+"GetRequestTestSuite","GetAllPets_ByStatus","Groovy Script","groovy","PASS","","07-Jun-2020 12_22",
+"GetRequestTestSuite","GetAllPets_ByStatus","GetRandomString","groovy","PASS","","07-Jun-2020 12_22",
+"PostRequestTestSuite","AddPetWithBody","AddPetWithBody","restrequest","PASS","","07-Jun-2020 12_22",
+"PostRequestTestSuite","AddPetWithOutBody","AddPetWithOutBody","restrequest","PASS","","07-Jun-2020 12_22",
+"testSuite","Copy of GetAllPets_ByStatus","GetRequestToGetSoldPetsCOPIED","restrequest","PASS","","07-Jun-2020 12_22",
+"testSuite","Copy of GetAllPets_ByStatus","GetRequestToGetAvailablePetsCOPIED","restrequest","PASS","","07-Jun-2020 12_22",
+"testSuite","Copy of GetAllPets_ByStatus","Groovy Script","groovy","PASS","","07-Jun-2020 12_22",
+"testSuite","Copy of GetAllPets_ByStatus","GetRandomString","groovy","PASS","","07-Jun-2020 12_22",
