@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:soapui-project id="817acb46-2638-4df9-a6ca-f14e70baec58" created="3.2.7" activeEnvironment="Default environment" name="Project 1" updated="3.2.7 2020-05-27T19:48:04Z" xmlns:con="http://eviware.com/soapui/config">
+<con:soapui-project id="817acb46-2638-4df9-a6ca-f14e70baec58" created="3.2.7" activeEnvironment="Default environment" name="Project 1" updated="3.2.7 2020-05-27T19:48:04Z" encryptionMode="Not encrypted" xmlns:con="http://eviware.com/soapui/config">
   <con:settings/>
   <con:interface xsi:type="con:RestService" id="1c6c3c46-d989-4963-b1d7-89084b85d99f" name="Swagger Petstore" type="rest_ex" wadlVersion="https://swagger.io/swagger2/specification" definitionUrl="https://petstore.swagger.io/v2/swagger.json" basePath="/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <con:description>This is a sample server Petstore server.  You can find out more about Swagger at [http://swagger.io](http://swagger.io) or on [irc.freenode.net, #swagger](http://swagger.io/irc/).  For this sample, you can use the api key `special-key` to test the authorization filters.</con:description>
@@ -57,6 +57,10 @@
         <con:request name="Request 1" id="51b0b4e0-26d2-4f58-95e2-bc744943b706" mediaType="application/json">
           <con:settings/>
           <con:endpoint>http://petstore.swagger.io</con:endpoint>
+          <con:credentials>
+            <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+            <con:authType>No Authorization</con:authType>
+          </con:credentials>
           <con:parameters/>
         </con:request>
       </con:method>
@@ -117,6 +121,10 @@
           <con:settings/>
           <con:endpoint>http://petstore.swagger.io</con:endpoint>
           <con:request/>
+          <con:credentials>
+            <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+            <con:authType>No Authorization</con:authType>
+          </con:credentials>
           <con:parameters/>
         </con:request>
         <con:request name="Request 2" id="4eda3bfb-a8d1-48b2-bcdb-e97d40f11670" mediaType="application/xml">
@@ -140,6 +148,10 @@
    </tagss>\r
    <status>available</status>\r
 </Pet>]]></con:request>
+          <con:credentials>
+            <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+            <con:authType>No Authorization</con:authType>
+          </con:credentials>
           <con:parameters/>
         </con:request>
       </con:method>
@@ -217,6 +229,7 @@
           <con:endpoint>http://petstore.swagger.io</con:endpoint>
           <con:request/>
           <con:credentials>
+            <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
             <con:authType>No Authorization</con:authType>
           </con:credentials>
           <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
@@ -243,6 +256,10 @@
    </tagss>\r
    <status>available</status>\r
 </Pet>]]></con:request>
+          <con:credentials>
+            <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+            <con:authType>No Authorization</con:authType>
+          </con:credentials>
           <con:parameters/>
         </con:request>
       </con:method>
@@ -309,6 +326,7 @@ Finds Pets by status</con:description>
           <con:request/>
           <con:originalUri>http://petstore.swagger.io/v2/pet/findByStatus</con:originalUri>
           <con:credentials>
+            <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
             <con:authType>No Authorization</con:authType>
           </con:credentials>
           <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
@@ -378,6 +396,10 @@ Finds Pets by tags</con:description>
         <con:request name="Request 1" id="71c3fd87-f3e8-4feb-8816-8643b6c9686f" mediaType="application/json">
           <con:settings/>
           <con:endpoint>http://petstore.swagger.io</con:endpoint>
+          <con:credentials>
+            <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+            <con:authType>No Authorization</con:authType>
+          </con:credentials>
           <con:parameters/>
         </con:request>
       </con:method>
@@ -449,6 +471,10 @@ Find pet by ID</con:description>
         <con:request name="Request 1" id="88e0d9f5-b552-4c5c-9be9-93658da70ec3" mediaType="application/json">
           <con:settings/>
           <con:endpoint>http://petstore.swagger.io</con:endpoint>
+          <con:credentials>
+            <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+            <con:authType>No Authorization</con:authType>
+          </con:credentials>
           <con:parameters/>
         </con:request>
       </con:method>
@@ -484,6 +510,10 @@ Find pet by ID</con:description>
         <con:request name="Request 1" id="3bce8f9f-3c95-434b-992a-4ba8271591a4" mediaType="application/json">
           <con:settings/>
           <con:endpoint>http://petstore.swagger.io</con:endpoint>
+          <con:credentials>
+            <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+            <con:authType>No Authorization</con:authType>
+          </con:credentials>
           <con:parameters/>
         </con:request>
       </con:method>
@@ -520,6 +550,10 @@ Find pet by ID</con:description>
         <con:request name="Request 1" id="a8bf7cbe-cdf4-4cf2-ae57-b8dccacd04b2" mediaType="application/json">
           <con:settings/>
           <con:endpoint>http://petstore.swagger.io</con:endpoint>
+          <con:credentials>
+            <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+            <con:authType>No Authorization</con:authType>
+          </con:credentials>
           <con:parameters/>
         </con:request>
       </con:method>
@@ -594,6 +628,10 @@ Find pet by ID</con:description>
   "status" : "placed",\r
   "complete" : true\r
 }</con:request>
+          <con:credentials>
+            <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+            <con:authType>No Authorization</con:authType>
+          </con:credentials>
           <con:parameters/>
         </con:request>
       </con:method>
@@ -662,6 +700,10 @@ Find purchase order by ID</con:description>
         <con:request name="Request 1" id="de5c5e8d-15ce-49ff-bb1a-4c68c021cff7" mediaType="application/json">
           <con:settings/>
           <con:endpoint>http://petstore.swagger.io</con:endpoint>
+          <con:credentials>
+            <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+            <con:authType>No Authorization</con:authType>
+          </con:credentials>
           <con:parameters/>
         </con:request>
       </con:method>
@@ -693,6 +735,10 @@ Delete purchase order by ID</con:description>
         <con:request name="Request 1" id="4095d1fa-ea53-4707-9c55-5b2cbdb4c53d" mediaType="application/json">
           <con:settings/>
           <con:endpoint>http://petstore.swagger.io</con:endpoint>
+          <con:credentials>
+            <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+            <con:authType>No Authorization</con:authType>
+          </con:credentials>
           <con:parameters/>
         </con:request>
       </con:method>
@@ -718,6 +764,10 @@ Returns pet inventories by status</con:description>
         <con:request name="Request 1" id="81f27766-307a-467e-bf65-155f678211c4" mediaType="application/json">
           <con:settings/>
           <con:endpoint>http://petstore.swagger.io</con:endpoint>
+          <con:credentials>
+            <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+            <con:authType>No Authorization</con:authType>
+          </con:credentials>
           <con:parameters/>
         </con:request>
       </con:method>
@@ -752,6 +802,10 @@ Returns pet inventories by status</con:description>
           <con:settings/>
           <con:endpoint>http://petstore.swagger.io</con:endpoint>
           <con:request>{ }</con:request>
+          <con:credentials>
+            <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+            <con:authType>No Authorization</con:authType>
+          </con:credentials>
           <con:parameters/>
         </con:request>
       </con:method>
@@ -786,6 +840,10 @@ Returns pet inventories by status</con:description>
           <con:settings/>
           <con:endpoint>http://petstore.swagger.io</con:endpoint>
           <con:request>{ }</con:request>
+          <con:credentials>
+            <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+            <con:authType>No Authorization</con:authType>
+          </con:credentials>
           <con:parameters/>
         </con:request>
       </con:method>
@@ -856,6 +914,10 @@ Returns pet inventories by status</con:description>
         <con:request name="Request 1" id="6b2c3190-7be0-4872-9bbc-025ddbb284df" mediaType="application/json">
           <con:settings/>
           <con:endpoint>http://petstore.swagger.io</con:endpoint>
+          <con:credentials>
+            <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+            <con:authType>No Authorization</con:authType>
+          </con:credentials>
           <con:parameters/>
         </con:request>
       </con:method>
@@ -915,6 +977,10 @@ Updated user</con:description>
   "phone" : "string",\r
   "userStatus" : 0\r
 }</con:request>
+          <con:credentials>
+            <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+            <con:authType>No Authorization</con:authType>
+          </con:credentials>
           <con:parameters/>
         </con:request>
       </con:method>
@@ -946,6 +1012,10 @@ Delete user</con:description>
         <con:request name="Request 1" id="9e0f4e2a-799f-491a-8c28-4f2401882826" mediaType="application/json">
           <con:settings/>
           <con:endpoint>http://petstore.swagger.io</con:endpoint>
+          <con:credentials>
+            <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+            <con:authType>No Authorization</con:authType>
+          </con:credentials>
           <con:parameters/>
         </con:request>
       </con:method>
@@ -993,6 +1063,10 @@ Delete user</con:description>
         <con:request name="Request 1" id="6467b429-6413-4241-8281-e98f6b99285a" mediaType="application/json">
           <con:settings/>
           <con:endpoint>http://petstore.swagger.io</con:endpoint>
+          <con:credentials>
+            <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+            <con:authType>No Authorization</con:authType>
+          </con:credentials>
           <con:parameters/>
         </con:request>
       </con:method>
@@ -1017,6 +1091,10 @@ Delete user</con:description>
         <con:request name="Request 1" id="bf382464-3737-428a-b20d-f5e8aab96d8f" mediaType="application/json">
           <con:settings/>
           <con:endpoint>http://petstore.swagger.io</con:endpoint>
+          <con:credentials>
+            <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+            <con:authType>No Authorization</con:authType>
+          </con:credentials>
           <con:parameters/>
         </con:request>
       </con:method>
@@ -1070,6 +1148,10 @@ Create user</con:description>
   "phone" : "string",\r
   "userStatus" : 0\r
 }</con:request>
+          <con:credentials>
+            <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+            <con:authType>No Authorization</con:authType>
+          </con:credentials>
           <con:parameters/>
         </con:request>
       </con:method>
@@ -2456,6 +2538,120 @@ testSteps["GenerateCSVReport"].run(testRunner, context);</con:tearDownScript>
   <con:testSuite id="56b79b10-11f9-45da-8452-3be12f8ac918" name="testSuite">
     <con:settings/>
     <con:runType>SEQUENTIAL</con:runType>
+    <con:testCase id="74e142ad-f86e-4de0-a13f-3d9e77b31e05" discardOkResults="false" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="Copy of GetAllPets_ByStatus" searchProperties="true" timeout="0">
+      <con:settings/>
+      <con:savedRecentRuns>1</con:savedRecentRuns>
+      <con:testStep type="restrequest" name="GetRequestToGetSoldPetsCOPIED" id="4214bdea-93f8-4527-b5f5-c4a14cf2af74">
+        <con:settings/>
+        <con:config service="Swagger Petstore" resourcePath="/v2/pet/findByStatus" methodName="findPetsByStatus" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+          <con:restRequest name="GetRequestToGetSoldPetsCOPIED" id="cd4d3fe1-a215-43f9-9320-67b4d617b7c5" mediaType="application/json">
+            <con:settings>
+              <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+            </con:settings>
+            <con:endpoint>http://petstore.swagger.io</con:endpoint>
+            <con:request/>
+            <con:originalUri>http://petstore.swagger.io/v2/pet/findByStatus</con:originalUri>
+            <con:assertion type="Valid HTTP Status Codes" id="02183589-e662-491c-a488-b49c850c9fc4" name="Valid HTTP Status Codes">
+              <con:settings/>
+              <con:configuration>
+                <codes>200</codes>
+              </con:configuration>
+            </con:assertion>
+            <con:assertion type="Response SLA Assertion" id="228ed7be-2421-4de8-af58-49b76f1a5321" name="Response SLA">
+              <con:configuration>
+                <SLA>2000</SLA>
+              </con:configuration>
+            </con:assertion>
+            <con:credentials>
+              <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+              <con:authType>No Authorization</con:authType>
+            </con:credentials>
+            <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+            <con:parameters>
+              <con:entry key="status" value="sold"/>
+            </con:parameters>
+            <con:parameterOrder>
+              <con:entry>status</con:entry>
+            </con:parameterOrder>
+          </con:restRequest>
+        </con:config>
+      </con:testStep>
+      <con:testStep type="restrequest" name="GetRequestToGetAvailablePetsCOPIED" id="3e7f5419-f077-479d-9d9d-e4b8aab9ff88">
+        <con:settings/>
+        <con:config service="Swagger Petstore" resourcePath="/v2/pet/findByStatus" methodName="findPetsByStatus" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+          <con:restRequest name="GetRequestToGetAvailablePetsCOPIED" id="cd4d3fe1-a215-43f9-9320-67b4d617b7c5" mediaType="application/json">
+            <con:settings>
+              <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+            </con:settings>
+            <con:endpoint>http://petstore.swagger.io</con:endpoint>
+            <con:request/>
+            <con:originalUri>http://petstore.swagger.io/v2/pet/findByStatus</con:originalUri>
+            <con:assertion type="Valid HTTP Status Codes" id="02183589-e662-491c-a488-b49c850c9fc4" name="Valid HTTP Status Codes">
+              <con:settings/>
+              <con:configuration>
+                <codes>200</codes>
+              </con:configuration>
+            </con:assertion>
+            <con:assertion type="Response SLA Assertion" id="228ed7be-2421-4de8-af58-49b76f1a5321" name="Response SLA">
+              <con:configuration>
+                <SLA>2000</SLA>
+              </con:configuration>
+            </con:assertion>
+            <con:credentials>
+              <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+              <con:authType>No Authorization</con:authType>
+            </con:credentials>
+            <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+            <con:parameters>
+              <con:entry key="status" value="available"/>
+            </con:parameters>
+            <con:parameterOrder>
+              <con:entry>status</con:entry>
+            </con:parameterOrder>
+          </con:restRequest>
+        </con:config>
+      </con:testStep>
+      <con:testStep type="groovy" name="Groovy Script" id="1206c83c-24dc-44a9-ad9e-52c569a52128">
+        <con:settings/>
+        <con:config>
+          <script>log.info "Hello there"
+log.info testRunner.startTime
+def teststep = testRunner.testCase.getTestStepByName("GetRandomString");
+
+teststep.run(testRunner, context);
+context.GetRandomString.sayHello("avin");
+
+log.info testRunner.testCase.testSuite.project.testSuiteList.iterator()</script>
+        </con:config>
+      </con:testStep>
+      <con:testStep type="groovy" name="GetRandomString" id="3a7d7123-aca0-4e6a-915e-f8eaea42aeb4">
+        <con:settings/>
+        <con:config>
+          <script>class GetRandomString{
+	def log;
+	def context;
+	def testRunner;
+
+	def GetRandomString(log,context,testRunner){
+		this.log = log;
+		this.context = context;
+		this.testRunner=testRunner;
+	}
+
+	def sayHello(String hell){
+		log.info "Printing ..........."+hell
+	}
+
+}
+context.setProperty("GetRandomString", new GetRandomString(log,context,testRunner))</script>
+        </con:config>
+      </con:testStep>
+      <con:tearDownScript>// Code to execute the GenerateCSVReport test step
+testRunner.testCase.testSuite.project.testSuites["Library"].testCases["Reporting_Utility"].
+testSteps["GenerateCSVReport"].run(testRunner, context);</con:tearDownScript>
+      <con:properties/>
+      <con:reportParameters/>
+    </con:testCase>
     <con:properties/>
     <con:reportParameters/>
   </con:testSuite>
